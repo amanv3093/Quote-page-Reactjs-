@@ -85,13 +85,13 @@ function Quote() {
     console.log(a);
   return (
     <div className='main-box'>
-    {a.map((quote) => (
+    {a.map((e) => (
         <div className='box' data-aos="fade-up">
-          <h1 className='box-h1'>{quote.title}</h1>
-          <p className='box-p'>{quote.author}</p>
+          <h1 className='box-h1'>{e.title}</h1>
+          <p className='box-p'>{e.author}</p>
         </div>
       ))}
-   <h1>h</h1>
+
      
     </div>
   )
